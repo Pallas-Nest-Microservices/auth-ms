@@ -16,3 +16,5 @@ steps:
         'push',
         'northamerica-south1-docker.pkg.dev/nest-microservices-456422/image-registry/auth-ms',
       ]
+options:
+  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
